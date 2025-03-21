@@ -1,5 +1,4 @@
 import random
-import os
 
 def rock_paper_scissors():
     print("Welcome to Rock, Paper, Scissors!")
@@ -10,7 +9,7 @@ def rock_paper_scissors():
     if player_choice not in choices:
         print("Invalid choice. Please try again.")
         return
-    
+
     computer_choice = random.choice(choices)
     print(f"The computer chose {computer_choice}.")
 
@@ -28,5 +27,5 @@ def rock_paper_scissors():
         rock_paper_scissors()
     else:
         print("Thanks for playing!")
-    
-   
+
+rock_paper_scissors()
