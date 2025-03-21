@@ -11,4 +11,5 @@ def rock_paper_scissors():
         print("Invalid choice. Please try again.")
         return
     
-   
+    computer_choice = random.choice(choices)
+    print(f"The computer chose {computer_choice}.")
